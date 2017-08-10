@@ -2,7 +2,7 @@
 
 <html lang="en">
 <head>
-  <title>Welcome to NoLimitSports</title>
+  <title>NoLimitCoin - Powering Fantasy Sports</title>
  
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -48,7 +48,7 @@
   <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
   <script src="js/app.js"></script>
   
-   <script type="text/javascript">
+  <script type="text/javascript">
            window.onload = fnSecureURL;
 
                 function fnSecureURL() {
@@ -65,7 +65,6 @@
 			);
 		  });
    </script>
-  
 
 </head>
 
@@ -102,7 +101,7 @@
                                <img src="assets/images/logos/nlc2-coin-min.png" alt="No Limit Coin Logo" class="img-responsive nav-header-logo">                             
                             </div>
                             <div class="nav-header-text-logo">
-                                 <h3 class="title-nlc-text text-uppercase text-center">
+                                 <h3 class="title-nlc-text text-uppercase text-center" id="nlc-text-logo">
                                     No Limit Coin
                                 </h3>                           
                             </div>
@@ -164,8 +163,8 @@
                       <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12"></div>
                       <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                           <div class="auth-btn-group-wrapper text-center">
-                              <a href="https://www.nolimitcoin.com/signin.php" class="auth-btn auth-btn-login">Log In</a>
-                              <a href="https://www.nolimitcoin.com/signup.php" class="auth-btn auth-btn-signUp">Sign Up</a>
+                             <!-- <a href="https://www.nolimitcoin.com/signin.php" target="_blank" class="auth-btn auth-btn-login">Log In</a>
+                              <a href="https://www.nolimitcoin.com/signup.php" target="_blank" class="auth-btn auth-btn-signUp">Sign Up</a>-->
                           </div>
                       </div>
                       <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12"></div>
@@ -180,7 +179,9 @@
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>                        
                                   </button>
-                                  <a class="navbar-brand" href="#"><img src="assets/images/logos/nlc2-trans-min-xs.png" class="app-logo-vector" alt="No Limit Coin Vector Logo"><span><img src="assets/images/coinTLogoTransperant.png" alt="No Limit Coin Text Logo"></span></a>
+                                  <a class="navbar-brand" href="#"><img src="assets/images/logos/nlc2-trans-min-xs.png" class="app-logo-vector" alt="No Limit Coin Vector Logo"><span><h3 class="title-nlc-text-sp text-uppercase text-center">
+                                    No Limit Coin
+                                </h3></span></a>
                                 </div>
                                 <div class="collapse navbar-collapse" id="myNavbar">
                                  <div class="navbar-center navbar-collapse-inner">
@@ -226,56 +227,53 @@
                                       <div id="img-carousel-header" class="carousel slide pull-center" data-ride="carousel">
 
                                                <ol class="carousel-indicators" >
-                                                  <li data-target="#img-carousel-indicator" data-slide-to="0" class="active"></li>
-                                                  <li data-target="#img-carousel-indicator" data-slide-to="1" ></li>
-                                                  <li data-target="#img-carousel-indicator" data-slide-to="2" ></li>
-												  <li data-target="#img-carousel-indicator" data-slide-to="3" ></li>
-												  <li data-target="#img-carousel-indicator" data-slide-to="4" ></li>
+                                                  <li data-target="#img-carousel-header" data-slide-to="0" class="active"></li>
+                                                  <li data-target="#img-carousel-header" data-slide-to="1" ></li>
+                                                  <li data-target="#img-carousel-header" data-slide-to="2" ></li>
+												  <li data-target="#img-carousel-header" data-slide-to="3" ></li>
+												  <li data-target="#img-carousel-header" data-slide-to="4" ></li>
                                                </ol>
                                                <div class="carousel-inner" role="listbox">
                                                    <div class="item active">
-                                                      <img src="assets/images/carousel/slide0.png" alt="image of rugby match"
+                                                      <img src="assets/images/carousel/Slider2.jpg" alt="image of rugby match"
                                                       class="carousel-slide carousel-slide-0">
-                                                      <div class="carousel-caption hidden-xs">
-                                                          <h3 class="text-center text-uppercase">no limit coin 2.0</h3>
-                                                          <h6 class="text-uppercase">pioneering blockchain</h6>
-                                                          <h6 class="text-uppercase text-center">get yours today</h6>
-                                                          <button class="btn btn-lg btn-danger">READ MORE</button>
+                                                      <div class="carousel-caption">
+                                                          <h3 class="text-center text-uppercase">NO LIMIT COIN 2.0</h3>
+                                                          <h4 class="text-uppercase">WORLD'S 1ST FANTASY SPORTS CRYPTO-CURRENCY</h4>
                                                       </div>
                                                    </div>
                                                    <div class="item">
-                                                      <img src="assets/images/carousel/slide7.png" alt="image of rugby match" class="carousel-slide carousel-slide-1 img-responsive">
-                                                      <div class="carousel-caption hidden-xs">
-                                                          <h3 class="text-center text-uppercase">Your favorite Sports</h3>
-                                                          <h6 class="text-uppercase">Your favorite players</h6>
-                                                          <h6 class="text-uppercase text-center">unique features</h6>
-                                                          <button class="btn btn-lg btn-danger">BIG PRIZES</button>
+                                                      <img src="assets/images/carousel/Slider4.jpg" alt="image of rugby match" class="carousel-slide carousel-slide-1 img-responsive">
+                                                      <div class="carousel-caption">
+                                                          <h3 class="text-center text-uppercase">BLAZING FAST BETTING</h3>
+                                                          <h4 class="text-uppercase">NO WAITING FOR BET PLACEMENT AND WINNINGS</h4>
                                                       </div>
                                                    </div>
 
-                                                     <!--<div class="item">
-                                                        <img src="assets/images/carousel/slide9.png" alt="image of rugby match" class="carousel-slide carousel-slide-2">
-                                                         <div class="carousel-caption hidden-xs">
-                                                          <h3 class="text-center text-uppercase">secure and fast</h3>
-                                                          <h6 class="text-uppercase">Secure and fast</h6>
-                                                          </div>
-                                                     </div>-->
-													 
-													 <div class="item">
-                                                        <img src="assets/images/carousel/slide8.png" alt="image of rugby match" class="carousel-slide carousel-slide-3">
-                                                         <div class="carousel-caption hidden-xs">
-                                                          <h3 class="text-center text-uppercase">secure and fast</h3>
-                                                          <!--<h6 class="text-uppercase">Secure and fast</h6>-->
+                                                     <div class="item">
+                                                        <img src="assets/images/carousel/Slider3.jpg" alt="image of rugby match" class="carousel-slide carousel-slide-2">
+                                                         <div class="carousel-caption">
+                                                          <h3 class="text-center text-uppercase">HIGHLY SECURE NETWORK</h3>
+                                                          <h4 class="text-uppercase">THE NLC2 ENCRYPTED BLOCKCHAIN IS ROCK SOLID</h4>
                                                           </div>
                                                      </div>
 													 
-													  <!--<div class="item">
-                                                        <img src="assets/images/carousel/slide10.png" alt="image of rugby match" class="carousel-slide carousel-slide-4">
-                                                         <div class="carousel-caption hidden-xs">
-                                                          <h3 class="text-center text-uppercase">Your favorite players</h3>
-                                                          <h6 class="text-uppercase">Secure and fast</h6>
+													 <div class="item">
+                                                        <img src="assets/images/carousel/Slider1.jpg" alt="image of rugby match" class="carousel-slide carousel-slide-3">
+                                                         <div class="carousel-caption">
+                                                          <h3 class="text-center text-uppercase">ALL YOUR FAVORITE SPORTS</h3>
+                                                          <h4 class="text-uppercase">CREATE YOUR FANTASY SPORTS TEAMS, GO HEAD TO HEAD!</h4>
                                                           </div>
-                                                     </div>-->
+                                                     </div>
+													 
+													  <div class="item">
+                                                        <img src="assets/images/carousel/Slider5.jpg" alt="image of rugby match" class="carousel-slide carousel-slide-4">
+                                                         <div class="carousel-caption">
+                                                          <h3 class="text-center text-uppercase">START PLAYING TODAY</h3>
+                                                          <h4 class="text-uppercase">GET 50 FREE NO LIMIT COINS WHEN YOU JOIN</h4>
+                                                          <a class="btn btn-lg btn-danger" href="https://www.cryptofantasysports.com/Home/WelcomeNLF" target="_blank">SIGN UP NOW</a>														  
+                                                          </div>
+                                                     </div>
 
                                                </div>
                                                   <a class="left carousel-control" href="#img-carousel-header" data-slide="prev">
@@ -382,7 +380,7 @@
                          
                      </div>
                      <div class="sec-0-wrapper-inner-0-footer text-center">
-                         <a href="https://www.cryptofantasysports.com" class="btn btn-default btn-lg text-uppercase">Game Registration</a>
+                         <a class="btn btn-lg btn-danger" href="https://www.cryptofantasysports.com/Home/WelcomeNLF" target="_blank">SIGN UP NOW</a>	
                      </div>
                  </div>
 
@@ -401,7 +399,7 @@
                              </div>
                              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                                  <h3 class="text-uppercase text-center cd-title" style="font-size:32px; font-weight:bold;">
-                                     NFL Is Unleashed
+                                     NFL COMING SOON
                                  </h3>
                                  <h6 class="text-uppercase text-center cd-sub-title" style="font-size: 18px; font-weight: bolder; color: #d84727;">
                                      are you ready
@@ -432,7 +430,7 @@
                          
                      </div>
                      <div class="sec-0-wrapper-inner-0-footer text-center">
-                         <a href="https://www.cryptofantasysports.com" class="btn btn-default btn-lg text-uppercase">Game Registration</a>
+                         <a class="btn btn-lg btn-danger" href="https://www.cryptofantasysports.com/Home/WelcomeNLF" target="_blank">SIGN UP NOW</a>
                      </div>
 					 
                  </div>
@@ -661,7 +659,7 @@
                                         <h3 class="text-uppercase accordion-header text-left"><span class="fa fa-caret-right"></span>&nbsp;&nbsp;<span>What is No Limit Fantasy Sports & why is it a home run?</span></h3>
                                         <div class="faq-snippet-content faq-snippet-content-1">
                                             <p>
-                                              No Limit Fantasy Sports is a brand-new fantasy sports betting platform set to launch next month, although you can sign up already at No Limit Fantasy Sports. Starting from August, you will be able to play fantasy soccer, with American football, basketball, and hockey being added to the platform later this year.
+                                              No Limit Fantasy Sports is a brand-new fantasy sports betting platform. Starting from August, you will be able to play fantasy soccer, with American football, basketball, and hockey being added to the platform later this year.
                                             </p>
                                             <p>
                                                 What makes No Limit Fantasy Sports different from other fantasy sports betting platforms is that instead of using fiat currency such as the US dollar, all competitions will be played using its very own flagship cryptocurrency called No Limit Coin (NLC2). You also get free NLC2 to play with just for signing up.
@@ -675,13 +673,18 @@
                                               Using NLC2 instead of fiat currency allows the platform to navigate around restrictive gambling laws in the United States and other countries around the world. This gives the platform a truly global reach that long-established competitors can only dream of.  
                                             </p>
                                             <p>
-                                                It is also a currency rapidly appreciating in value, which cannot be said for many fiat currencies including the US dollar. Take a look at the graph below charting the enormous growth in value of NLC2 in little over a month, from mere fractions of a penny to its current price of around 5 cents.
+                                                It is also a currency rapidly appreciating in value, which cannot be said for many fiat currencies including the US dollar. Take a look at the adjacent graph charting the enormous growth in value of NLC2 this year.
                                             </p>
                                             <p>
                                                 This means any potential winnings in NLC2 are likely to multiply in value as the platform becomes more popular and demand for the coin increases.
                                             </p>
                                         </div>
 
+                                        <h3 class="text-uppercase accordion-header text-left"><span class="fa fa-caret-right"></span>&nbsp;&nbsp;<span>WHAT IS PROOF OF STAKE? HOW DO I STAKE NLC2?</span></h3>
+                                        <div class="faq-snippet-content faq-snippet-content-6">
+                                            <p>
+                                             NLC2 Coins use a Proof of Stake algorithm for transmitting the blockchain. By staking your NLC2 Coins you become a node on the network that transmits the blockchain and you get 4% extra coins per year as your reward. The blockchain creates these new coins and sends them to your wallet. <a href="https://goo.gl/TXz2h3" target="_blank"> Read our NLC2 Wallet Staking Tutorial Here for More Information </a></p>
+                                        </div>											
                                        
                                         <h3 class="text-uppercase accordion-header text-left"><span class="fa fa-caret-right"></span>&nbsp;&nbsp;<span>WHY IS NO LIMIT FANTASY SPORTS BETTER THAN ITS COMPETITORS?</span></h3>
                                         <div class="faq-snippet-content faq-snippet-content-4">
@@ -713,23 +716,13 @@
                                             </p>
                                         </div>
 
-                                       
-                                        <h3 class="text-uppercase accordion-header text-left"><span class="fa fa-caret-right"></span>&nbsp;&nbsp;<span>DON’T TRUST CRYPTOCURRENCY?</span></h3>
-                                        <div class="faq-snippet-content faq-snippet-content-6">
-                                            <p>
-                                              If you don’t trust No Limit Coin or the world of cryptocurrency, in general, I would still encourage you to sign up for No Limit Fantasy Sports, since you will be able to play with the 100 free NLC2 you receive as a sign-up bonus. This way you can have fun using the platform without having to risk your finances. 
-                                            </p>
-                                            <p>
-                                                Who knows? After you’ve been wildly successful and won a giant stash of NLC2, you might just feel differently about it.
-                                            </p>
-                                        </div>
-                                        
                                         <h3 class="text-uppercase accordion-header text-left"><span class="fa fa-caret-right"></span>&nbsp;&nbsp;<span>OK, my interest is piqued, what are the contests?</span></h3>
                                         <div class="faq-snippet-content faq-snippet-content-6">
                                             <p>
                                              Contests allowing you to challenge friends based on individual statistic of players; Over 100 statistical categories with which you can use to challenge other fantasy sports players; as well as the ability to set up over/under contests based on any such statistical category. We also have Vegas-style point spread games, but they are never played for money. They can be played for game credits, and anyone can go head to head in contests featuring Vegas-style point spreads and action.
                                             </p>
                                         </div>
+									
 
                                 </div>  
                            </div>
@@ -742,7 +735,7 @@
                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ig-col-0">
                                            <img src="assets/images/infographics/nlc2-chart-coinigy.png" alt="nolimitcoin price chart" class="ig-sec-0">
                                            <div class="ig-caption text-center">
-                                               <h3 class="text-center text-uppercase"><span class="text-highlighted">nolimitcoin's</span> rise over this month</h3>
+                                               <h3 class="text-center text-uppercase"><span class="text-highlighted">nolimitcoin's</span> rise this year</h3>
                                            </div>
                                        </div>
                                    </div>
@@ -920,7 +913,7 @@
                                   </header>
                                   <div class="content text-left">
                                    <h3 class="text-uppercase">Fantasy Soccer League</h3>
-                                   <h4>starts in 11 aug 2017</h4>
+                                   <h4>starts on 11 aug 2017</h4>
                                    <br><br>
                                    <p></p>
                                    
@@ -960,7 +953,7 @@
                                   </header>
                                   <div class="content text-left">
                                    <h3 class="text-uppercase"> fantasy cricket League</h3>
-                                   <h4>starts in december 2017</h4>
+                                   <h4>starts in march 2018</h4>
                                    <br><br>
                                    <p></p>
                                    
@@ -981,7 +974,7 @@
                                   </header>
                                   <div class="content text-left">
                                    <h3 class="text-uppercase"> fantasy basketball League</h3>
-                                   <h4>starts in december 2017</h4>
+                                   <h4>starts in march 2018</h4>
                                    <br><br>
                                    <p></p>
                                    
@@ -1002,7 +995,7 @@
                                   </header>
                                   <div class="content text-left">
                                    <h3 class="text-uppercase"> fantasy baseball League</h3>
-                                   <h4>starts in december 2017</h4>
+                                   <h4>starts in march 2018</h4>
                                    <br><br>
                                    <p></p>
                                    
@@ -1023,7 +1016,7 @@
                                   </header>
                                   <div class="content text-left">
                                    <h3 class="text-uppercase"> fantasy hockey League</h3>
-                                   <h4>starts in december 2017</h4>
+                                   <h4>starts in march 2018</h4>
                                    <br><br>
                                    <p></p>
                                    
@@ -1109,7 +1102,7 @@
 
                                 <div class="cd-timeline-content">
                                     <h3>CRICKET</h3>
-                                    <h6>DECEMBER 2017</h6>
+                                    <h6>MARCH 2018</h6>
                                     <p>Test your skills in the first ever Crypto Fantasy Cricket League! It will take the sport by surprise and provide unmatched cryptocurrency advantages. Stay tuned for updates in January 2018.</p>
                                     
                                 </div> 
@@ -1159,8 +1152,9 @@
                           <div class="caption">
                             <h3 class="text-uppercase text-center thumb-heading">Windows</h3>
                                <ul>
-                                   <li class="text-left"><p>Executable (compressed) available <a href="http://nolimitcoin.com/downloads/NoLimitCoin2-qt.rar">here</a></p></li>
-                                   <li class="text-left"><p>Sync your wallet to the network before transferring coins</p></li>
+                                   <li class="text-left"><p>Executable (compressed) <a href="http://nolimitcoin.com/downloads/NoLimitCoin2-qt.rar">available here</a></p></li>
+                                   <li class="text-left"><p>Get rewarded with 4% extra NLC2 for staking</p></li>
+								   <li class="text-left"><p>Sync your wallet to the network before transferring NLC2</p></li>
                                </ul>
                             <p class="text-center"><a href="http://nolimitcoin.com/downloads/NoLimitCoin2-qt.exe" class="btn btn-primary" role="button">Download</a></p>
                           </div>
@@ -1172,8 +1166,9 @@
                           <div class="caption">
                             <h3 class="text-uppercase text-center thumb-heading">linux</h3>
                                <ul>
-                                   <li class="text-left"><p>Executable (compressed) available <a href="http://nolimitcoin.com/downloads/NoLimitCoin-qt-linux.rar">here</a></p></li>
-                                   <li class="text-left"><p>Sync your wallet to the network before transferring coins</p></li>
+                                   <li class="text-left"><p>Executable (compressed) <a href="http://nolimitcoin.com/downloads/NoLimitCoin-qt-linux.rar">available here</a></p></li>
+								   <li class="text-left"><p>Get rewarded with 4% extra NLC2 for staking</p></li>
+                                   <li class="text-left"><p>Sync your wallet to the network before transferring NLC2</p></li>
                                </ul>
                             <p class="text-center"><a href="http://nolimitcoin.com/downloads/NoLimitCoin-qt" class="btn btn-primary" role="button">Download</a></p>
                           </div>
@@ -1185,8 +1180,9 @@
                           <div class="caption">
                             <h3 class="text-uppercase text-center thumb-heading">Mac</h3>
                                <ul>
-                                   <li class="text-left"><p>Executable (compressed) available <a href="http://nolimitcoin.com/downloads/mac-wallet.zip">here</a></p></li>
-                                   <li class="text-left"><p>Sync your wallet to the network before transferring coins</p></li>
+                                   <li class="text-left"><p>Executable (compressed) <a href="http://nolimitcoin.com/downloads/mac-wallet.zip">available here</a></p></li>
+								   <li class="text-left"><p>Get rewarded with 4% extra NLC2 for staking</p></li>
+                                   <li class="text-left"><p>Sync your wallet to the network before transferring NLC2</p></li>
                                </ul>
                             <p class="text-center"><a href="http://nolimitcoin.com/downloads/NoLimitCoin.dmg" class="btn btn-primary" role="button">Download</a></p>
                           </div>
@@ -1202,7 +1198,7 @@
                                 <h3 class="text-uppercase text-center thumb-heading">web wallet</h3>
                                    <ul>
                                        <li class="text-left"><p>Secure your web wallet with 2FA </p></li>
-                                       <li class="text-left"><p>Move your coins to local desktop wallet and get rewarded with 4% nlc2 for staking</p></li>
+                                       <li class="text-left"><p>Web Wallet does not stake or earn extra NLC2</p></li>
                                    </ul>
                                 <p class="text-center"><a href="https://www.nolimitcoin.com/" class="btn btn-primary" role="button">Setup</a></p>
                               </div>
@@ -1526,9 +1522,9 @@
                                 No Limit Fantasy Sports gives itself the perfect vehicle to use in the fantasy sports platform by creating the NoLimitCoin. Demand for the coin will come from the fantasy players as well as investors. The NoLimitCoin will power the fantasy sports platforms and expand to other online gaming properties including other fantasy operators like Draft Kings and Fan Duel.
 
                             </p>
-                            <p class="text-center">
+                            <!--<p class="text-center">
                                Premine is 200 M coin and most will be in circulation within one year. 
-                            </p>
+                            </p>-->
                             <div class="space-bar"></div>
                             <p class="text-center">
                                <span class="text-highlighted1">— Rafael Groswirt co-founder</span>
@@ -1548,7 +1544,7 @@
             <div class="sec-5-wrapper-inner-2-inner-0">
                 <div class="space-bar2"></div>
 				
-				<p class="text-center"><img src="assets/images/no_limit_coin_logo.png" alt="No Limit Coin Logo"></p>
+				<p class="text-center"><img src="assets/images/no_limit_coin_logo.png" alt="No Limit Coin Logo" class="logo-nlc-unified"></p>
 	            <p class="text-center"><img src="assets/images/nlc.png" alt="NLC"></p>
 				
                  <header class="sec-5-wrapper-inner-1-header">
@@ -1570,7 +1566,7 @@
                  <div class="space-bar3"></div>
                  <footer class="page-footer">
                     <div class="hlink-container text-center">
-                         <a href="https://github.com/justinvforvendetta/nolimitcoin" class="btn btn-link btn-lg" target="_blank"><i class="fa fa-github"></i> Github</a>
+                         <a href="https://github.com/NoLimitCoin/NoLimitCoin" class="btn btn-link btn-lg" target="_blank"><i class="fa fa-github"></i> Github</a>
                          <a href="http://nolimitcoin.info/info" class="btn btn-link btn-lg" target="_blank">API</a>
                          <a href="https://bitcointalk.org/index.php?topic=1606674.0" class="btn btn-link btn-lg" target="_blank">Blog</a>
                          <a href="http://www.nlfantasysports.com/Home/Faq" class="btn btn-link btn-lg" target="_blank">FAQ</a>   

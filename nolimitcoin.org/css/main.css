@@ -124,7 +124,20 @@ body {
 }
 
 .nav-header .hlinks-wrapper .navbar .navbar-collapse-inner ul .nav-link {
-    transition: top .8s linear
+    transition: all .15s linear;
+    top : 0px;
+}
+
+.btn-action-nav{
+    color : #fcd753;
+    border:none;
+    
+}
+.btn-action-nav:hover{
+    text-decoration: underline;
+    color : #fcd753;
+    border : none;
+    outline: none;
 }
 
 .nav-header .hlinks-wrapper .navbar .navbar-collapse-inner ul .nav-link:hover {
@@ -605,18 +618,19 @@ body {
     left: 0
 }
 
-#app-layout-root .sec-0 .sec-0-wrapper-inner-0 .sec-0-wrapper-inner-0-inner-0 .btn {
-    border: 2px solid #53575e
+#app-layout-root .sec-0 .sec-0-wrapper-inner-0-footer .btn {
+    border: 0px solid #53575e;
+    transition: all 0.2s linear;
 }
 
-#app-layout-root .sec-0 .sec-0-wrapper-inner-0 .sec-0-wrapper-inner-0-inner-0 .btn:hover {
+#app-layout-root .sec-0 .sec-0-wrapper-inner-0-footer .btn:hover {
     color: #1a5b21;
     background-color: #fff;
     -webkit-box-shadow: 0 0 18px 5px rgba(0, 0, 0, .4);
     box-shadow: 0 0 18px 5px rgba(0, 0, 0, .4)
 }
 
-#app-layout-root .sec-0 .sec-0-wrapper-inner-0 .sec-0-wrapper-inner-0-inner-0 .icc-wc-trophy {
+#app-layout-root .sec-0 .sec-0-wrapper-inner-0-inner-0 .icc-wc-trophy {
     max-width: 180px;
     max-height: 360px;
     display: inline-block
@@ -1208,12 +1222,12 @@ body {
     color: #dfdfdf
 }
 
-#app-layout-root .sec-0 .btn-link:hover {
+/*#app-layout-root .sec-0 .btn-link:hover {
     -webkit-box-shadow: 0 0 2vw #4c1d03;
     box-shadow: 0 0 2vw #4c1d03;
     border: 2px solid #dfdfdf;
     color: #dfdfdf
-}
+}*/
 
 #app-layout-root .sec-1 {
     padding: 64px 0 0;
@@ -1911,15 +1925,32 @@ body {
     }
 }
 
+@media (min-width:360px) and (max-width:768px) {
+    #nlc-text-logo {
+        display: none;
+    }
+    .nav-header-logo{
+       margin-bottom: 140px; 
+    }
+    .title-nlc-text-sp{
+        font-size: 16px;
+        color : #777;
+        position: relative;
+        top : -14px;
+    }
+    .sec-5-wrapper-inner-2-inner-0 .logo-nlc-unified{
+        max-width: 80%;
+        
+    }
+}
+
 @media (min-width:768px) and (max-width:991px) {
     .flip-clock-wrapper {
         zoom: .4;
         -moz-transform: scale(.5);
         margin-left: 50px
     }
-	.nav-header .hlinks-wrapper .navbar .navbar-collapse-inner ul a {
-    padding-left: 5px;
-    padding-right: 5px;
+
 }
 
 
