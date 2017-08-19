@@ -182,7 +182,7 @@
   float: left;
   display: inline-block;
   position: relative;
-  width: 20px;
+  width:10px;
   height: 100px; }
 
 .flip-clock-divider:first-child {
@@ -196,7 +196,7 @@
   position: absolute;
   border-radius: 50%;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-  left: 5px; }
+  }
 
 .flip-clock-divider .flip-clock-label {
   position: absolute;
