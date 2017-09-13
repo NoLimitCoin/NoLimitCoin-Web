@@ -34,17 +34,27 @@ body {
 #app-layout-root #page-title img {
     max-width: 90%
 }
-
-.nav-logo-wrapper {
-    max-width: 1400px;
-    height: 850px;
+.cent {
+	margin:0  auto;
+}
+.nav-logo-wrapper1 {
+    width:100%;
+    height:860px;
     margin-top: 80px;
-    background-image: url(../assets/images/dark-bg-final.png);
-    background-clip: inherit;
-    background-repeat: no-repeat
+	border-bottom: 2px solid #dfdfdf;
+	margin-bottom:30px;
+	background: url(../assets/images/dark-bg-final.jpg) no-repeat center center;
+	background-size: 300px 100px;  
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.btn-play-popup {
+	cursor:pointer;
 }
 
-.nav-logo-wrapper .nav-header-logo {
+.nav-logo-wrapper1 .nav-header-logo {
     display: inline;
     margin-top: 30px
 }
@@ -226,12 +236,12 @@ body {
     padding: 0
 }
 
-.auth-container {
+/*.auth-container {
     background-image: url(../assets/images/1px-trans.png);
     background-repeat: no-repeat;
     padding: 20px;
     border-bottom: 2px solid #dfdfdf
-}
+}*/
 
 .auth-container .auth-btn {
     display: inline-block;
@@ -396,10 +406,10 @@ body {
 }
 
 .cmc-stat-wrapper {
-    padding-top: 20px;
-    max-width: 60%;
+    max-width:68%;
     margin-left: 20%;
 	color:#fff;
+	/*background:#000;*/
 }
 
 .cmc-stat-wrapper span {
@@ -516,7 +526,7 @@ body {
 }
 
 #app-layout-root .team-info-grid .article-team-info .avatar-core-4 {
-    background-image: url(../assets/images/avatars/core-team/oscar-p.jpg);
+    background-image: url(../assets/images/avatars/core-team/oscar.jpg);
     float: right
 }
 
@@ -542,6 +552,11 @@ body {
 
 #app-layout-root .team-info-grid .article-team-info .avatar-core-9 {
     background-image: url(../assets/images/avatars/core-team/james-strout.jpg);
+    float: right
+}
+
+#app-layout-root .team-info-grid .article-team-info .avatar-core-10 {
+    background-image: url(../assets/images/avatars/core-team/Anthonyy.jpg);
     float: right
 }
 
@@ -589,11 +604,11 @@ body {
 }
 
 #app-layout-root .sec-0 {
-    padding: 64px 0 0;
     background-image: url(../assets/images/temp1.jpg);
     -webkit-backface-visibility: visible;
     backface-visibility: visible;
-    border-bottom: 1px solid #ccc
+    border-bottom: 1px solid #ccc;
+	background-position: center; 
 }
 
 #app-layout-root .sec-0 .sec-0-wrapper-inner-0 .sec-0-wrapper-inner-0-inner-0,
@@ -607,12 +622,15 @@ body {
 
 #app-layout-root .sec-0 .sec-0-wrapper-inner-0 {
     background-image: url(../assets/images/soccer-moment-3.jpg);
-    border-bottom: 2px solid #ccc
+    border-bottom: 2px solid #ccc;
+	background-position: center; 
 }
 
 .sec-0-wrapper-inner-nl {
-    background-image: url(../assets/images/nfl-moment-1.png);
-    border-bottom: 2px solid #ccc
+    background:#fff url(../assets/images/nfl-moment-1.png);
+    border-bottom: 2px solid #ccc;
+	background-position: center;
+	background-repeat:no-repeat; 
 }
 
 #app-layout-root .sec-0 .sec-0-wrapper-inner-0-footer .btn {
@@ -760,7 +778,7 @@ body {
     background-image: url(../assets/images/dark-radial-bg.png);
     background-position: center;
     background-size: cover;
-    padding: 128px 0;
+    padding:70px 0;
     border-top: 1px solid #dfdfdf;
     border-bottom: 1px solid #dfdfdf
 }
@@ -1822,10 +1840,11 @@ h2 {
 }
 
 .flip-clock-wrapper {
-    zoom: .7;
-    -moz-transform: scale(.5);
+     zoom: 0.6;
+    -moz-transform: scale(0.6);
     width: auto;
-    display: inline
+    display: inline-block;
+    width: 100%;
 }
 
 .flip-clock-label {
@@ -1934,51 +1953,74 @@ h2 {
 }
 
 @media (min-width:360px) and (max-width:768px) {
-    #nlc-text-logo {
-        display: none
-    }
-    .nav-header-logo {
-        margin-bottom: 140px
-    }
-    .title-nlc-text-sp {
-        font-size: 16px;
-        color: #777;
-        position: relative;
-        top: -14px
-    }
-    .sec-5-wrapper-inner-2-inner-0 .logo-nlc-unified {
-        max-width: 80%
-    }
-	
+#nlc-text-logo {
+	display: none
+}
+.title-nlc-text-sp {
+	font-size: 16px;
+	color: #e0b51e;
+	position: relative;
+	top: -18px
+}
+.sec-5-wrapper-inner-2-inner-0 .logo-nlc-unified {
+	max-width: 80%
+}
+.nav-logo-wrapper1 {
+	height:800px;
+}
+.flip-clock-wrapper ul {
+    width:100px;
+    height:120px;
+    font-size:30px;
+    line-height:40px;
+}
+.flip-clock-label {
+    font-size:18px;  
+}
+.flip-clock-wrapper {
+	zoom: .5;
+	-moz-transform: scale(.5);
+	margin-left: -70px
+}
+.nav-logo-wrapper1 {
+	height:650px;
+}
+h1 {
+    font-size: 24px;
+}
 }
 
 @media (min-width:768px) and (max-width:991px) {
-    .flip-clock-wrapper {
-        zoom: .4;
-        -moz-transform: scale(.5);
-        margin-left: 50px
-    }
-	
+.flip-clock-wrapper {
+	zoom: .4;
+	-moz-transform: scale(.5);
+	margin-left: 50px
+}
+
 }
 
 @media (min-width:1200px) and (max-width:6660px) {
-    .nav-header .hlinks-wrapper .navbar .navbar-collapse-inner .nav {
-        margin-left: 140px
-    }
+.nav-header .hlinks-wrapper .navbar .navbar-collapse-inner .nav {
+	margin-left:90px
+}
+.nav-logo-wrapper1 {
+    height:950px;
+}
+.flip-clock-wrapper {
+   margin-left:50px;
+}
 }
 @media(max-width:480px) {
 #app-layout-root .sec-0 .sec-0-wrapper-inner0-2 .factBox-inner article .fs .fs-inner content {
     min-height: inherit;
 }
 .cmc-stat-wrapper {
-    margin-left: 10%;
+    margin-left:-5%;
 	margin-top:0px;
 }
 .flip-clock-wrapper {
-    zoom: .6;
-}
-#app-layout-root .sec-0 .sec-0-wrapper-inner-0 .sec-0-wrapper-inner-0-inner-0 .timer-box-wrapper {
-    margin-left: 30px;
+	zoom: .6;
+	margin-left: -140px
 }
 .timer-box-wrapper {
  margin-left: 30px;
