@@ -407,6 +407,12 @@ a:hover {
     font-weight: 900;
     letter-spacing: 2px;
 }
+.panel .line-height:hover {
+    color: #2374d1;
+}
+.panel-heading:hover {
+	color: #2374d1;
+}
 .more-less {
     color: #fff;
     margin-right: 10px;
@@ -419,6 +425,10 @@ a:hover {
     padding-top: 10px;
     padding-left: 2px;
 }
+.more-less:hover {
+	background: #2374d1;
+}
+
 .hight {
     height: 75px;
 }
