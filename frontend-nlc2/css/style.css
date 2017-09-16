@@ -923,14 +923,14 @@ a:hover {
     .step-4 .win .blue-bar {
         height: 55px;
         font-size: 20px;
-        margin-top: 20px;
+        margin-top: 10px;
         padding-top: 10px;
     }
     .step-4 .pick .blue-bar-twoline,
     .step-4 .draft .blue-bar-twoline {
         height: 55px;
         font-size: 20px;
-        margin-top: 20px;
+        margin-top: 10px;
         padding-top: 7px;
         line-height: 20px;
     }
