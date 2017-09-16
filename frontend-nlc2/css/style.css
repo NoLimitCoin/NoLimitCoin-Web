@@ -300,7 +300,7 @@ a:hover {
     border-left: solid 1px #fff;
     border-right: solid 1px #fff;
     position: relative;
-    background: #1c2641;
+    /*background: #1c2641;*/
 }
 .variety-sports .sports img {
     width: 100%;
@@ -323,12 +323,12 @@ a:hover {
     left: 100px;
 }
 .how-it-works {
-    background: url(../images/learn-more-bg.jpg) no-repeat center center fixed;
+    /*background: url(../images/learn-more-bg.jpg) no-repeat center center fixed;*/*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    padding-top: 100px;
+    padding: 100px 0;
     color: #061540;
     font-size: 18px;
 }
@@ -465,6 +465,52 @@ a:hover {
 .social img {
     margin: 0px 5px;
 }
+
+.basketball {
+	background:	url("../images/basketball.jpg");
+}
+
+.hockey {
+	background: url("../images/hockey.jpg")
+}
+
+.cricket {
+	background: url("../images/cricket2.jpg")
+}
+
+.mma {
+	background: url("../images/mma.jpg")
+}
+
+.baseball {
+	background: url("../images/baseball.jpg")
+}
+
+.soccer {
+	background: url("../images/soccer.jpg")
+}
+
+.football {
+	background: url("../images/football.jpg")
+}
+
+.sports {
+	background-size: cover;
+	height: 450px;
+}
+
+.sports:hover{
+	opacity: 0.7;
+}
+
+.how-it-works h5 {
+	color: #0d3663;
+}
+
+.how-it-works p {
+	color: #0d3663;
+}
+
 @media (max-width: 1700px) {
     .carousel-caption h1 {
         margin-bottom: 26px;
@@ -743,6 +789,10 @@ a:hover {
     .social {
         text-align: center;
     }
+
+    .sports {
+    	background-position: center;
+    }
 }
 @media (max-width: 768px) {
     .home-header .logo img {
@@ -831,9 +881,13 @@ a:hover {
     }
     .variety-sports .sports-big {
         width: 33.33%;
+        height: 300px;
+        background-size: cover;
     }
     .variety-sports .sports-small {
         width: 25%;
+        height: 265px;
+		background-size: cover;
     }
     .variety-sports .sports-small span {
         bottom: 90px;
