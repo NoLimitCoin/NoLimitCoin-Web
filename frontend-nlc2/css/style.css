@@ -11,12 +11,7 @@ body {
     overflow-x: hidden;
     font-weight: 400;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1,h2,h3,h4,h5,h6 {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
 }
@@ -92,11 +87,6 @@ a:hover {
     color: #fff;
     border: solid 2px #2374d1;
 }
-.carousel-inner img {
-    margin: 0 auto;
-    width: 100%;
-    max-height: 760px;
-}
 .carousel-caption {
     right: 10%;
     left: 10%;
@@ -104,8 +94,6 @@ a:hover {
     top: 41%;
 }
 .carousel-caption h1 {
-    /* font-size:80px; dharmesh */
-    
     font-size: 77px;
     text-transform: uppercase;
     color: #fff;
@@ -143,7 +131,22 @@ a:hover {
     margin: 0 10px;
     background-color: #ff9f2f;
 }
-.item {
+.slider-1 {
+    background: url("../images/slider/slider-1-kasper-v4.jpg");
+    background-position: center top;
+    background-size: cover;
+}
+.slider-2 {
+    background: url("../images/slider/slider-1-kasper-v4.jpg");
+    background-position: center top;
+    background-size: cover;
+}
+.slider-3 {
+    background: url("../images/slider/slider-1-kasper-v4.jpg");
+    background-position: center top;
+    background-size: cover;
+}
+.slider-4 {
     background: url("../images/slider/slider-1-kasper-v4.jpg");
     background-position: center top;
     background-size: cover;
@@ -300,7 +303,6 @@ a:hover {
     border-left: solid 1px #fff;
     border-right: solid 1px #fff;
     position: relative;
-    /*background: #1c2641;*/
 }
 .variety-sports .sports img {
     width: 100%;
@@ -323,11 +325,6 @@ a:hover {
     left: 100px;
 }
 .how-it-works {
-    /*background: url(../images/learn-more-bg.jpg) no-repeat center center fixed;*/*/
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
     padding: 100px 0;
     color: #061540;
     font-size: 18px;
@@ -407,12 +404,6 @@ a:hover {
     font-weight: 900;
     letter-spacing: 2px;
 }
-.panel .line-height:hover {
-    color: #2374d1;
-}
-.panel-heading:hover {
-	color: #2374d1;
-}
 .more-less {
     color: #fff;
     margin-right: 10px;
@@ -475,610 +466,580 @@ a:hover {
 .social img {
     margin: 0px 5px;
 }
-
+.social img {
+     margin:0px 5px;
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	transform: rotate(0deg);
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-ms-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;	
+}
+.social img:hover {
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-ms-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;
+}
 .basketball {
 	background:	url("../images/basketball.jpg");
 }
-
 .hockey {
 	background: url("../images/hockey.jpg")
 }
-
 .cricket {
 	background: url("../images/cricket2.jpg")
 }
-
 .mma {
 	background: url("../images/mma.jpg")
 }
-
 .baseball {
 	background: url("../images/baseball.jpg")
 }
-
 .soccer {
 	background: url("../images/soccer.jpg")
 }
-
 .football {
 	background: url("../images/football.jpg")
 }
-
 .sports {
 	background-size: cover;
 	height: 450px;
 }
-
 .sports:hover{
 	opacity: 0.7;
 }
-
 .how-it-works h5 {
 	color: #0d3663;
 }
-
 .how-it-works p {
 	color: #0d3663;
 }
 
 @media (max-width: 1700px) {
-    .carousel-caption h1 {
-        margin-bottom: 26px;
-        font-size: 60px;
-    }
-    .carousel-caption .btn-slider {
-        font-size: 26px;
-    }
+.carousel-caption h1 {
+	margin-bottom: 26px;
+	font-size: 60px;
+}
+.carousel-caption .btn-slider {
+	font-size: 26px;
+}
 }
 @media (min-width: 1440px) {
-    .carousel-caption h1 {
-        margin-bottom: 26px;
-    }
-    .container {
-        width: 1400px;
-    }
-    .variety-sports .sports span {
-        bottom: 85px;
-    }
-    /* KASPER */
-    
-    .item {
-        height: 650px;
-    }
-    /* KASPER */
+.carousel-caption h1 {
+	margin-bottom: 26px;
 }
-/* @media (max-width: 1366px) {  DHARMESH*/
-
+.container {
+	width: 1400px;
+}
+.variety-sports .sports span {
+	bottom: 85px;
+}
+.item {
+	height: 650px;
+}
+}
 @media (max-width: 1440px) {
-    /* KASPER */
-    
-    .item {
-        height: 500px;
-        margin: 0 auto;
-        width: 100%;
-    }
-    .carousel-caption {
-        right: 10%;
-        left: 10%;
-        padding-bottom: 0px;
-        top: 37%;
-    }
-    .carousel-caption h1 {
-        font-size: 59px;
-        margin-bottom: 12px;
-    }
-    .carousel-caption .btn-slider {
-        font-size: 23px;
-    }
-    /* KASPER */
-    
-    .step-4 .sign-up-1,
-    .step-4 .pick,
-    .step-4 .draft,
-    .step-4 .win {
-        height: 260px;
-    }
-    .step-4 span {
-        top: -25px;
-        width: 50px;
-        height: 50px;
-        font-size: 30px;
-        border-radius: 40px;
-    }
-    .step-4 .sign-up-1 .blue-bar,
-    .step-4 .win .blue-bar {
-        height: 70px;
-        font-size: 24px;
-        margin-top: 60px;
-        padding-top: 17px;
-    }
-    .step-4 .pick .blue-bar-twoline,
-    .step-4 .draft .blue-bar-twoline {
-        height: 70px;
-        font-size: 24px;
-        margin-top: 60px;
-        padding-top: 8px;
-        line-height: 28px;
-    }
-    .how-it-works h5 {
-        padding-top: 20px;
-    }
-    .panel-title > a {
-        font-size: 18px;
-        letter-spacing: 1px;
-    }
-    .panel-default > .panel-heading + .panel-collapse > .panel-body {
-        font-size: 16px;
-        line-height: 24px;
-    }
-    .more-less {
-        margin-right: 10px;
-        font-size: 16px;
-        width: 30px;
-        height: 30px;
-        padding-top: 7px;
-        padding-left: 2px;
-    }
-    .panel-default > .panel-heading + .panel-collapse > .panel-body {
-        margin-left: 45px;
-    }
-    .footer .btn-footer {
-        font-size: 8px;
-        width: 120px;
-        height: 28px;
-        margin: 5px 2px;
-    }
+.item {
+	height: 500px;
+	margin: 0 auto;
+	width: 100%;
+}
+.carousel-caption {
+	right: 10%;
+	left: 10%;
+	padding-bottom: 0px;
+	top: 37%;
+}
+.carousel-caption h1 {
+	font-size: 59px;
+	margin-bottom: 12px;
+}
+.carousel-caption .btn-slider {
+	font-size: 23px;
+}
+.step-4 .sign-up-1,
+.step-4 .pick,
+.step-4 .draft,
+.step-4 .win {
+	height: 260px;
+}
+.step-4 span {
+	top: -25px;
+	width: 50px;
+	height: 50px;
+	font-size: 30px;
+	border-radius: 40px;
+}
+.step-4 .sign-up-1 .blue-bar,
+.step-4 .win .blue-bar {
+	height: 70px;
+	font-size: 24px;
+	margin-top: 60px;
+	padding-top: 17px;
+}
+.step-4 .pick .blue-bar-twoline,
+.step-4 .draft .blue-bar-twoline {
+	height: 70px;
+	font-size: 24px;
+	margin-top: 60px;
+	padding-top: 8px;
+	line-height: 28px;
+}
+.how-it-works h5 {
+	padding-top: 20px;
+}
+.panel-title > a {
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+.panel-title > a:hover {
+	color:#2374d1;
+}
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+	font-size: 16px;
+	line-height: 24px;
+	margin-left: 45px;
+}
+.more-less {
+	margin-right: 10px;
+	font-size: 16px;
+	width: 30px;
+	height: 30px;
+	padding-top: 7px;
+	padding-left: 2px;
+}
+.footer .btn-footer {
+	font-size: 8px;
+	width: 120px;
+	height: 28px;
+	margin: 5px 2px;
+}
 }
 @media (max-width: 1200px) {
-    .home-header .worlds-first-crypto {
-        font-size: 18px;
-    }
-    .home-header .header-padding {
-        padding: 23px 0px;
-    }
-    .carousel-caption h1 {
-        font-size: 52px;
-        /* font-size:60px; DHARMESH */
-        
-        margin-bottom: 20px;
-    }
-    .carousel-caption .btn-slider {
-        /* font-size:24px; */
-        
-        font-size: 18px;
-    }
-    .blockchain .overly {
-        background-color: rgba(6, 21, 64, 0.5);
-    }
-    .variety-sports .sports span {
-        left: 70px;
-    }
-    .how-it-works h5 {
-        font-size: 36px;
-        padding-top: 0px;
-    }
-    .panel-title > a {
-        font-size: 16px;
-        letter-spacing: 1px;
-    }
-    .footer {
-        font-size: 11px;
-    }
-    .footer .btn-footer {
-        font-size: 7px;
-        width: 100px;
-        height: 24px;
-    }
+.home-header .worlds-first-crypto {
+	font-size: 18px;
+}
+.home-header .header-padding {
+	padding: 23px 0px;
+}
+.carousel-caption h1 {
+	font-size: 52px;
+	margin-bottom: 20px;
+}
+.carousel-caption .btn-slider {
+	font-size: 18px;
+}
+.blockchain .overly {
+	background-color: rgba(6, 21, 64, 0.5);
+}
+.variety-sports .sports span {
+	left: 70px;
+}
+.how-it-works h5 {
+	font-size: 36px;
+	padding-top: 0px;
+}
+.panel-title > a {
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+.footer {
+	font-size: 11px;
+}
+.footer .btn-footer {
+	font-size: 7px;
+	width: 100px;
+	height: 24px;
+}
 }
 @media (max-width: 1024px) {
-    .carousel-caption {
-        /* kasper */
-        
-        top: 30%;
-        /* kasper */
-        /* top:15%; DHARMESH*/
-    }
-    .blockchain {
-        text-align: center;
-        background: url(../images/trofy-bg.jpg) no-repeat center top;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-    }
-    .blockchain .overly {
-        padding: 140px 0px;
-    }
-    .step-4 .sign-up-1,
-    .step-4 .pick,
-    .step-4 .draft,
-    .step-4 .win {
-        height: 212px;
-    }
-    .step-4 .sign-up-1 .blue-bar,
-    .step-4 .win .blue-bar {
-        margin-top: 40px;
-    }
-    .step-4 .pick .blue-bar-twoline,
-    .step-4 .draft .blue-bar-twoline {
-        margin-top: 40px;
-    }
+.carousel-caption {
+	top: 30%;
+}
+.blockchain {
+	text-align: center;
+	background: url(../images/trofy-bg.jpg) no-repeat center top;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.blockchain .overly {
+	padding: 140px 0px;
+}
+.step-4 .sign-up-1,
+.step-4 .pick,
+.step-4 .draft,
+.step-4 .win {
+	height: 212px;
+}
+.step-4 .sign-up-1 .blue-bar,
+.step-4 .win .blue-bar {
+	margin-top: 40px;
+}
+.step-4 .pick .blue-bar-twoline,
+.step-4 .draft .blue-bar-twoline {
+	margin-top: 40px;
+}
 }
 @media (max-width: 992px) {
-    .carousel-caption {
-        /* kasper */
-        
-        left: 8%;
-        right: 8%;
-        /* kasper */
-        /* top:15%; DHARMESH*/
-    }
-    /* kasper */
-    
-    .item {
-        height: 375px;
-    }
-    /* kasper */
-    
-    .home-header .worlds-first-crypto {
-        font-size: 14px;
-    }
-    .home-header .header-padding {
-        padding: 17px 0px;
-    }
-    .header-button .btn-login,
-    .header-button .btn-sign-up {
-        font-size: 14px;
-        padding: 7px 15px;
-        letter-spacing: 1px;
-    }
-    .carousel-caption h1 {
-        /* font-size:48px; DHARMESH */
-        
-        font-size: 40px;
-        margin-bottom: 20px;
-    }
-    .carousel-caption .btn-slider {
-        /* font-size:24px; DHARMESH */
-        
-        font-size: 15px;
-    }
-    .step-4 .sign-up-1,
-    .step-4 .pick,
-    .step-4 .draft,
-    .step-4 .win {
-        height: 210px;
-    }
-    .step-4 span {
-        top: -30px;
-        width: 60px;
-        height: 60px;
-        font-size: 36px;
-    }
-    .step-4 .sign-up-1 .blue-bar,
-    .step-4 .win .blue-bar {
-        margin-top: 10px;
-    }
-    .step-4 .pick .blue-bar-twoline,
-    .step-4 .draft .blue-bar-twoline {
-        margin-top: 10px;
-    }
-    .variety-sports .sports span {
-        bottom: 40px;
-        left: 50px;
-    }
-    .how-it-works {
-        text-align: center;
-    }
-    .learn-more .flex {
-        display: inline;
-    }
-    .learn-more img {
-        margin: 0 auto;
-        position: inherit;
-        bottom: 0;
-    }
-    .footer {
-        text-align: center;
-    }
-    .footer img {
-        padding-bottom: 10px;
-    }
-    .footer .button {
-        text-align: center;
-        padding-top: 10px;
-    }
-    .footer .btn-footer {
-        font-size: 11px;
-        width: 150px;
-        height: 30px;
-    }
-    .copyright {
-        text-align: center;
-    }
-    .social {
-        text-align: center;
-    }
+.carousel-caption {
+	left: 8%;
+	right: 8%;
+}
+.item {
+	height: 375px;
+}
+.home-header .worlds-first-crypto {
+	font-size: 14px;
+}
+.home-header .header-padding {
+	padding: 17px 0px;
+}
+.header-button .btn-login,
+.header-button .btn-sign-up {
+	font-size: 14px;
+	padding: 7px 15px;
+	letter-spacing: 1px;
+}
+.carousel-caption h1 {
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+.carousel-caption .btn-slider {
+	font-size: 15px;
+}
+.step-4 .sign-up-1,
+.step-4 .pick,
+.step-4 .draft,
+.step-4 .win {
+	height: 210px;
+}
+.step-4 span {
+	top: -30px;
+	width: 60px;
+	height: 60px;
+	font-size: 36px;
+}
+.step-4 .sign-up-1 .blue-bar,
+.step-4 .win .blue-bar {
+	margin-top: 10px;
+}
+.step-4 .pick .blue-bar-twoline,
+.step-4 .draft .blue-bar-twoline {
+	margin-top: 10px;
+}
+.variety-sports .sports span {
+	bottom: 40px;
+	left: 50px;
+}
+.how-it-works {
+	text-align: center;
+}
+.learn-more .flex {
+	display: inline;
+}
+.learn-more img {
+	margin: 0 auto;
+	position: inherit;
+	bottom: 0;
+}
+.footer {
+	text-align: center;
+}
+.footer img {
+	padding-bottom: 10px;
+}
+.footer .button {
+	text-align: center;
+	padding-top: 10px;
+}
+.footer .btn-footer {
+	font-size: 11px;
+	width: 150px;
+	height: 30px;
+}
+.copyright {
+	text-align: center;
+}
+.social {
+	text-align: center;
+}
 
-    .sports {
-    	background-position: center;
-    }
+.sports {
+	background-position: center;
+}
 }
 @media (max-width: 768px) {
-    .home-header .logo img {
-        width: 90px;
-    }
-    .carousel-caption {
-        /* top:22%; DHARMESH */
-        
-        top: 42%;
-    }
-    .carousel-caption h1 {
-        font-size: 35px;
-        /* font-size:32px; DHARMESH */
-        
-        margin-bottom: 10px;
-    }
-    .carousel-caption .btn-slider {
-        font-size: 23px;
-        /* font-size:20px; DHARMESH */
-        
-        padding: 5px 15px;
-    }
-    .carousel-indicators li {
-        width: 12px;
-        height: 12px;
-        border: 1px solid #fff;
-        margin: 0 3px;
-    }
-    .carousel-indicators .active {
-        width: 12px;
-        height: 12px;
-        margin: 0 3px;
-    }
-    .step-4 h2 {
-        font-size: 30px;
-    }
-    .blockchain .overly {
-        padding: 100px 0px;
-    }
-    .blockchain h3 {
-        font-size: 30px;
-    }
-    .home-header .header-padding {
-        padding: 17px 0px;
-    }
-    .header-button .btn-login,
-    .header-button .btn-sign-up {
-        font-size: 14px;
-        padding: 5px 12px;
-        letter-spacing: 1px;
-    }
-    .variety-sports h4 {
-        font-size: 24px;
-    }
-    /*.variety-sports .sports span {
-		bottom:50px;
-		font-size:18px;
-		left:10px;
-	}*/
-    
-    .how-it-works h5 {
-        font-size: 26px;
-        padding-top: 0px;
-    }
-    .learn-more-area h6 {
-        font-size: 26px;
-    }
-    .hight {
-        height: 40px;
-        float: left;
-    }
-    .step-4 .sign-up-1,
-    .step-4 .pick,
-    .step-4 .draft,
-    .step-4 .win {
-        height: 345px;
-    }
-    .step-4 .sign-up-1 .blue-bar,
-    .step-4 .win .blue-bar,
-    .step-4 .pick .blue-bar-twoline,
-    .step-4 .draft .blue-bar-twoline {
-        margin-top: 100px;
-    }
-    .panel-title > a .line-height {
-        line-height: 30px;
-    }
-    .variety-sports .sports-big {
-        width: 33.33%;
-        height: 300px;
-        background-size: cover;
-    }
-    .variety-sports .sports-small {
-        width: 25%;
-        height: 265px;
-		background-size: cover;
-    }
-    .variety-sports .sports-small span {
-        bottom: 90px;
-        font-size: 18px;
-        left: 55px;
-    }
-    .variety-sports .sports-big span {
-        bottom: 90px;
-        font-size: 18px;
-        left: 95px;
-    }
+.home-header .logo img {
+	width: 90px;
 }
-/* KASPER */
-
+.carousel-caption {
+	top: 42%;
+}
+.carousel-caption h1 {
+	font-size: 35px;
+	margin-bottom: 10px;
+}
+.carousel-caption .btn-slider {
+	font-size: 23px;
+	padding: 5px 15px;
+}
+.carousel-indicators li {
+	width: 12px;
+	height: 12px;
+	border: 1px solid #fff;
+	margin: 0 3px;
+}
+.carousel-indicators .active {
+	width: 12px;
+	height: 12px;
+	margin: 0 3px;
+}
+.step-4 h2 {
+	font-size: 30px;
+}
+.blockchain .overly {
+	padding: 100px 0px;
+}
+.blockchain h3 {
+	font-size: 30px;
+}
+.home-header .header-padding {
+	padding: 17px 0px;
+}
+.header-button .btn-login,
+.header-button .btn-sign-up {
+	font-size: 14px;
+	padding: 5px 12px;
+	letter-spacing: 1px;
+}
+.variety-sports h4 {
+	font-size: 24px;
+}
+.how-it-works h5 {
+	font-size: 26px;
+	padding-top: 0px;
+}
+.learn-more-area h6 {
+	font-size: 26px;
+}
+.hight {
+	height: 40px;
+	float: left;
+}
+.step-4 .sign-up-1,
+.step-4 .pick,
+.step-4 .draft,
+.step-4 .win {
+	height: 345px;
+}
+.step-4 .sign-up-1 .blue-bar,
+.step-4 .win .blue-bar,
+.step-4 .pick .blue-bar-twoline,
+.step-4 .draft .blue-bar-twoline {
+	margin-top: 100px;
+}
+.panel-title > a .line-height {
+	line-height: 30px;
+}
+.variety-sports .sports-big {
+	width: 33.33%;
+	height: 300px;
+	background-size: cover;
+}
+.variety-sports .sports-small {
+	width: 25%;
+	height: 265px;
+	background-size: cover;
+}
+.variety-sports .sports-small span {
+	bottom: 60px;
+	font-size:18px;
+    left: 100px;
+}
+.variety-sports .sports-big span {
+	bottom:80px;
+	font-size:18px;
+    left: 145px;
+}
+}
 @media (max-width: 662px) {
-    .step-4 {
-        padding: 35px 0;
-    }
-    .item {
-        height: 275px;
-    }
-    .carousel-caption h1 {
-        font-size: 24px;
-    }
-    .carousel-caption .btn-slider {
-        font-size: 16px;
-    }
+.step-4 {
+	padding: 35px 0;
 }
-/* KASPER */
-
+.item {
+	height: 275px;
+}
+.carousel-caption h1 {
+	font-size: 24px;
+}
+.carousel-caption .btn-slider {
+	font-size: 16px;
+}
+.step-4 .sign-up-1,
+.step-4 .pick,
+.step-4 .draft,
+.step-4 .win {
+	height: 220px;
+}
+.step-4 .sign-up-1 .blue-bar,
+.step-4 .win .blue-bar,
+.step-4 .pick .blue-bar-twoline,
+.step-4 .draft .blue-bar-twoline {
+	margin-top:40px;
+}
+}
 @media (max-width: 480px) {
-    .home-header .header-padding {
-        padding: 10px 0px;
-    }
-    .home-header .logo img {
-        width: 60px;
-    }
-    .header-button .btn-login,
-    .header-button .btn-sign-up {
-        font-size: 10px;
-        padding: 3px 8px;
-    }
-    .carousel-caption {
-        /* top:20%; */
-        /* kasper */
-        
-        top: 28%;
-        left: 3%;
-        right: 3%;
-        /* kasper */
-    }
-    .carousel-caption h1 {
-        font-size: 19px;
-        margin-bottom: 5px;
-    }
-    .carousel-caption .btn-slider {
-        font-size: 14px;
-    }
-    .carousel-indicators {
-        bottom: 0px;
-    }
-    /* kasper */
-    
-    .item {
-        height: 190px;
-    }
-    /* kasper */
-    
-    .step-4 .btn-free-nlc {
-        font-size: 18px;
-        padding: 5px 15px;
-    }
-    .step-4 .sign-up-1,
-    .step-4 .pick,
-    .step-4 .draft,
-    .step-4 .win {
-        height: 150px;
-        margin-top: 50px;
-    }
-    .step-4 span {
-        top: -23px;
-        width: 46px;
-        height: 46px;
-        font-size: 28px;
-    }
-    .step-4 .sign-up-1 .blue-bar,
-    .step-4 .win .blue-bar {
-        height: 55px;
-        font-size: 20px;
-        margin-top: 10px;
-        padding-top: 10px;
-    }
-    .step-4 .pick .blue-bar-twoline,
-    .step-4 .draft .blue-bar-twoline {
-        height: 55px;
-        font-size: 20px;
-        margin-top: 10px;
-        padding-top: 7px;
-        line-height: 20px;
-    }
-    /*.variety-sports .sports span {
-    bottom:30px;
-    font-size:14px;
-    left:0px;
-}*/
-    
-    .variety-sports .sports-small span {
-        bottom: 23px;
-        font-size: 18px;
-        left: 48px;
-    }
-    .variety-sports .sports-big span {
-        bottom: 23px;
-        font-size: 18px;
-        left: 77px;
-    }
-    .footer .btn-footer {
-        font-size: 9px;
-        width: 125px;
-        height: 28px;
-    }
+.home-header .header-padding {
+	padding: 10px 0px;
+}
+.home-header .logo img {
+	width: 60px;
+}
+.header-button .btn-login,
+.header-button .btn-sign-up {
+	font-size: 10px;
+	padding: 3px 8px;
+}
+.carousel-caption {
+	top: 28%;
+	left: 3%;
+	right: 3%;
+}
+.carousel-caption h1 {
+	font-size: 19px;
+	margin-bottom: 5px;
+}
+.carousel-caption .btn-slider {
+	font-size: 14px;
+}
+.carousel-indicators {
+	bottom: 0px;
+}
+.item {
+	height: 190px;
+}
+.step-4 .btn-free-nlc {
+	font-size: 18px;
+	padding: 5px 15px;
+}
+.step-4 .sign-up-1,
+.step-4 .pick,
+.step-4 .draft,
+.step-4 .win {
+	height: 150px;
+	margin-top: 50px;
+}
+.step-4 span {
+	top: -23px;
+	width: 46px;
+	height: 46px;
+	font-size: 28px;
+}
+.step-4 .sign-up-1 .blue-bar,
+.step-4 .win .blue-bar {
+	height: 55px;
+	font-size: 20px;
+	margin-top: 10px;
+	padding-top: 10px;
+}
+.step-4 .pick .blue-bar-twoline,
+.step-4 .draft .blue-bar-twoline {
+	height: 55px;
+	font-size: 20px;
+	margin-top: 10px;
+	padding-top: 7px;
+	line-height: 20px;
+}
+.variety-sports .sports-small span {
+	bottom:35px;
+	left: 48px;
+}
+.variety-sports .sports-big span {
+	bottom:38px;
+	left: 77px;
+}
+.footer .btn-footer {
+	font-size: 9px;
+	width: 125px;
+	height: 28px;
+}
 }
 @media (max-width: 360px) {
-    .home-header .header-padding {
-        padding: 10px 0px;
-    }
-    .carousel-caption h1 {
-        /* font-size:16px; */
-        
-        font-size: 15px;
-        margin-bottom: 5px;
-    }
-    .carousel-caption .btn-slider {
-        font-size: 10px;
-    }
-    .step-4 .btn-free-nlc {
-        font-size: 16px;
-        padding: 5px 12px;
-    }
-    .step-4 .sign-up-1,
-    .step-4 .pick,
-    .step-4 .draft,
-    .step-4 .win {
-        height: 130px;
-        margin-top: 50px;
-    }
-    .step-4 .sign-up-1 .blue-bar,
-    .step-4 .win .blue-bar {
-        height: 35px;
-        font-size: 14px;
-        margin-top: 0px;
-        padding-top: 6px;
-    }
-    .step-4 .pick .blue-bar-twoline,
-    .step-4 .draft .blue-bar-twoline {
-        height: 35px;
-        font-size: 14px;
-        margin-top: 0px;
-        padding-top: 4px;
-        line-height: 14px;
-    }
-    .footer .btn-footer {
-        font-size: 7px;
-        width: 110px;
-        height: 24px;
-    }
+.home-header .header-padding {
+	padding: 10px 0px;
+}
+.carousel-caption h1 {
+	font-size: 15px;
+	margin-bottom: 5px;
+}
+.carousel-caption .btn-slider {
+	font-size: 10px;
+}
+.step-4 .btn-free-nlc {
+	font-size: 16px;
+	padding: 5px 12px;
+}
+.step-4 .sign-up-1,
+.step-4 .pick,
+.step-4 .draft,
+.step-4 .win {
+	height: 130px;
+	margin-top: 50px;
+}
+.step-4 .sign-up-1 .blue-bar,
+.step-4 .win .blue-bar {
+	height: 35px;
+	font-size: 14px;
+	margin-top: 0px;
+	padding-top: 6px;
+}
+.step-4 .pick .blue-bar-twoline,
+.step-4 .draft .blue-bar-twoline {
+	height: 35px;
+	font-size: 14px;
+	margin-top: 0px;
+	padding-top: 4px;
+	line-height: 14px;
+}
+.footer .btn-footer {
+	font-size: 7px;
+	width: 110px;
+	height: 24px;
+}
 }
 @media (max-width: 320px) {
-    .home-header .header-padding {
-        padding: 5px 0px;
-    }
-    .carousel-caption {
-        /* top:15%; */
-        
-        top: 32%;
-    }
-    .step-4 .sign-up-1,
-    .step-4 .pick,
-    .step-4 .draft,
-    .step-4 .win {
-        height: 110px;
-        margin-top: 50px;
-    }
+.home-header .header-padding {
+	padding: 5px 0px;
+}
+.carousel-caption {
+	top: 32%;
+}
+.step-4 .sign-up-1,
+.step-4 .pick,
+.step-4 .draft,
+.step-4 .win {
+	height: 110px;
+	margin-top: 50px;
+}
+.variety-sports .sports-small span  {
+    bottom: 30px;
+    left: 30px;
+}
+.variety-sports .sports-big span {
+    bottom: 36px;
+    left: 48px;
+}
 }
